@@ -1,0 +1,67 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background: var(--bg);
+    color: var(--color);
+    transition: color 120ms ease-out 0s;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    --primary: #228be6;
+    --primary-dark: #1864ab;
+    --accent: #F9CA24;
+    --color: #535B6A;
+    --bg: #FFFFFF;
+}
+
+.c-hero {
+    width: 100%;
+    max-width: 68rem;
+    margin: auto;
+    padding: 35vh 2.4rem 0;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-bottom: 12px;
+    border: 3px solid #228be6;
+}
+
+.c-title {
+    font-weight: 800;
+    font-size: 3.2rem;
+    line-height: 1.6;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: all 120ms ease-out 0s;
+}
+
+.c-social {
+    display: flex;
+    margin-top: 2.4rem;
+}
+
+.c-social__link:not(:last-of-type) {
+    margin-right: 2.4rem;
+}
+.c-social__link {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
